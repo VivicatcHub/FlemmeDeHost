@@ -1,0 +1,35 @@
+[
+  {
+    "name": "MCU's Order",
+    "url": "https://mcus-order.vercel.app",
+    "desc": "Ordre des films/series du MCU"
+  },
+  {
+    "name": "Otousan Project Reborn",
+    "url": "https://otousanprojectreborn.vercel.app",
+    "desc": "Apprenez du vocabulaire (Refonte du projet Otousan)"
+  },
+  {
+    "name": "Heaven of Dice Showcase",
+    "url": "https://vivicatchub.github.io/HOD-showcase-site/",
+    "desc": "Vitrine de l'asso Heaven of Dice"
+  },
+  {
+    "name": "IDEpitech",
+    "url": "https://idepitech.vercel.app",
+    "desc": "IDE en ligne pour projets Epitech (coding-clubs)"
+  },
+  {
+    "name": "Portfolio Pro",
+    "url": "https://guinet-valentin.vercel.app/pro"
+  },
+  {
+    "name": "Portfolio Code",
+    "url": "https://guinet-valentin.vercel.app"
+  },
+  {
+    "name": "Epitech Scrapping",
+    "url": "https://epitech-scrapping.vercel.app",
+    "desc": "Générateur de QRCode pour Epitech"
+  }
+]
