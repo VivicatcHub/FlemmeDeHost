@@ -31,5 +31,10 @@
     "name": "Epitech Scrapping",
     "url": "https://epitech-scrapping.vercel.app",
     "desc": "Générateur de QRCode pour Epitech"
+  },
+  {
+    "name": "To Do Charts",
+    "url": "https://to-do-charts.vercel.app/",
+    "desc": "Gardez un oeil sur vos tâches quotidiennes"
   }
 ]
