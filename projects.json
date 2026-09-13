@@ -19,18 +19,17 @@
     "url": "https://idepitech.vercel.app",
     "desc": "IDE en ligne pour projets Epitech (coding-clubs)"
   },
-  {
-    "name": "Portfolio Pro",
-    "url": "https://guinet-valentin.vercel.app/pro"
-  },
-  {
-    "name": "Portfolio Code",
-    "url": "https://guinet-valentin.vercel.app"
-  },
+  { "name": "Portfolio Pro", "url": "https://guinet-valentin.vercel.app/pro" },
+  { "name": "Portfolio Code", "url": "https://guinet-valentin.vercel.app" },
   {
     "name": "Epitech Scrapping",
     "url": "https://epitech-scrapping.vercel.app",
     "desc": "Générateur de QRCode pour Epitech"
+  },
+  {
+    "name": "Tek3 Planning",
+    "url": "https://tek3-prevision.vercel.app/",
+    "desc": "Roadblocks et Stratégie crédit Tek3"
   },
   {
     "name": "To Do Charts",
