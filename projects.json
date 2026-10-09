@@ -2,7 +2,7 @@
   {
     "name": "MCU's Order",
     "url": "https://mcus-order.vercel.app",
-    "desc": "Ordre des films/series du MCU"
+    "desc": "Ordre des films/séries du MCU"
   },
   {
     "name": "Otousan Project Reborn",
@@ -24,7 +24,7 @@
   {
     "name": "Epitech Scrapping",
     "url": "https://epitech-scrapping.vercel.app",
-    "desc": "Générateur de QRCode pour Epitech"
+    "desc": "Générateur de QR code pour Epitech"
   },
   {
     "name": "Tek3 Planning",
@@ -34,6 +34,6 @@
   {
     "name": "To Do Charts",
     "url": "https://to-do-charts.vercel.app/",
-    "desc": "Gardez un oeil sur vos tâches quotidiennes"
+    "desc": "Gardez un œil sur vos tâches quotidiennes"
   }
 ]

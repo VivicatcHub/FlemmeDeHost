@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T00:00:00Z",
+  "title": "Design System: Flemme de Host",
+  "extensions": {
+    "colorMeta": {
+      "paper-lilac": {
+        "role": "neutral",
+        "displayName": "Paper Lilac",
+        "purpose": "Page background",
+        "tonalRamp": [
+          "oklch(15% 0.01 290)",
+          "oklch(25% 0.01 290)",
+          "oklch(38% 0.01 290)",
+          "oklch(50% 0.01 290)",
+          "oklch(62% 0.01 290)",
+          "oklch(74% 0.01 290)",
+          "oklch(86% 0.01 290)",
+          "oklch(95% 0.01 290)"
+        ]
+      },
+      "ink-plum": {
+        "role": "neutral",
+        "displayName": "Ink Plum",
+        "purpose": "Primary text",
+        "tonalRamp": [
+          "oklch(15% 0.012 290)",
+          "oklch(25% 0.012 290)",
+          "oklch(38% 0.012 290)",
+          "oklch(50% 0.012 290)",
+          "oklch(62% 0.012 290)",
+          "oklch(74% 0.012 290)",
+          "oklch(86% 0.012 290)",
+          "oklch(95% 0.012 290)"
+        ]
+      },
+      "card-white": {
+        "role": "neutral",
+        "displayName": "Card White",
+        "purpose": "Cards and search field",
+        "tonalRamp": [
+          "oklch(15% 0.004 290)",
+          "oklch(25% 0.004 290)",
+          "oklch(38% 0.004 290)",
+          "oklch(50% 0.004 290)",
+          "oklch(62% 0.004 290)",
+          "oklch(74% 0.004 290)",
+          "oklch(86% 0.004 290)",
+          "oklch(95% 0.004 290)"
+        ]
+      },
+      "hairline-lilac": {
+        "role": "neutral",
+        "displayName": "Hairline Lilac",
+        "purpose": "1px borders and dividers",
+        "tonalRamp": [
+          "oklch(15% 0.02 290)",
+          "oklch(25% 0.02 290)",
+          "oklch(38% 0.02 290)",
+          "oklch(50% 0.02 290)",
+          "oklch(62% 0.02 290)",
+          "oklch(74% 0.02 290)",
+          "oklch(86% 0.02 290)",
+          "oklch(95% 0.02 290)"
+        ]
+      },
+      "muted-slate": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "purpose": "Secondary text and icons",
+        "tonalRamp": [
+          "oklch(15% 0.018 290)",
+          "oklch(25% 0.018 290)",
+          "oklch(38% 0.018 290)",
+          "oklch(50% 0.018 290)",
+          "oklch(62% 0.018 290)",
+          "oklch(74% 0.018 290)",
+          "oklch(86% 0.018 290)",
+          "oklch(95% 0.018 290)"
+        ]
+      },
+      "tile-mist": {
+        "role": "secondary",
+        "displayName": "Tile Mist",
+        "purpose": "Initials tile background",
+        "tonalRamp": [
+          "oklch(15% 0.04 290)",
+          "oklch(25% 0.04 290)",
+          "oklch(38% 0.04 290)",
+          "oklch(50% 0.04 290)",
+          "oklch(62% 0.04 290)",
+          "oklch(74% 0.04 290)",
+          "oklch(86% 0.04 290)",
+          "oklch(95% 0.04 290)"
+        ]
+      },
+      "tile-violet": {
+        "role": "secondary",
+        "displayName": "Tile Violet",
+        "purpose": "Initials tile text",
+        "tonalRamp": [
+          "oklch(15% 0.13 290)",
+          "oklch(25% 0.13 290)",
+          "oklch(38% 0.13 290)",
+          "oklch(50% 0.13 290)",
+          "oklch(62% 0.13 290)",
+          "oklch(74% 0.13 290)",
+          "oklch(86% 0.13 290)",
+          "oklch(95% 0.13 290)"
+        ]
+      },
+      "logo-ink": {
+        "role": "neutral",
+        "displayName": "Logo Ink",
+        "purpose": "Logo artwork only",
+        "tonalRamp": [
+          "oklch(15% 0.0 290)",
+          "oklch(25% 0.0 290)",
+          "oklch(38% 0.0 290)",
+          "oklch(50% 0.0 290)",
+          "oklch(62% 0.0 290)",
+          "oklch(74% 0.0 290)",
+          "oklch(86% 0.0 290)",
+          "oklch(95% 0.0 290)"
+        ]
+      },
+      "halo-lavender": {
+        "role": "primary",
+        "displayName": "Halo Lavender",
+        "purpose": "Halo ring, glows, hover border tint",
+        "tonalRamp": [
+          "oklch(15% 0.13 290)",
+          "oklch(25% 0.13 290)",
+          "oklch(38% 0.13 290)",
+          "oklch(50% 0.13 290)",
+          "oklch(62% 0.13 290)",
+          "oklch(74% 0.13 290)",
+          "oklch(86% 0.13 290)",
+          "oklch(95% 0.13 290)"
+        ]
+      },
+      "brand-violet": {
+        "role": "primary",
+        "displayName": "Brand Violet",
+        "purpose": "Accent word, focus, hovered arrow, primary button",
+        "tonalRamp": [
+          "oklch(15% 0.16 290)",
+          "oklch(25% 0.16 290)",
+          "oklch(38% 0.16 290)",
+          "oklch(50% 0.16 290)",
+          "oklch(62% 0.16 290)",
+          "oklch(74% 0.16 290)",
+          "oklch(86% 0.16 290)",
+          "oklch(95% 0.16 290)"
+        ]
+      },
+      "on-brand": {
+        "role": "neutral",
+        "displayName": "On Brand",
+        "purpose": "Text on Brand Violet",
+        "tonalRamp": [
+          "oklch(15% 0.0 290)",
+          "oklch(25% 0.0 290)",
+          "oklch(38% 0.0 290)",
+          "oklch(50% 0.0 290)",
+          "oklch(62% 0.0 290)",
+          "oklch(74% 0.0 290)",
+          "oklch(86% 0.0 290)",
+          "oklch(95% 0.0 290)"
+        ]
+      },
+      "night-bg": {
+        "role": "neutral",
+        "displayName": "Night Background",
+        "purpose": "Dark-mode twin",
+        "tonalRamp": [
+          "oklch(15% 0.03 290)",
+          "oklch(25% 0.03 290)",
+          "oklch(38% 0.03 290)",
+          "oklch(50% 0.03 290)",
+          "oklch(62% 0.03 290)",
+          "oklch(74% 0.03 290)",
+          "oklch(86% 0.03 290)",
+          "oklch(95% 0.03 290)"
+        ]
+      },
+      "night-fg": {
+        "role": "neutral",
+        "displayName": "Night Text",
+        "purpose": "Dark-mode twin",
+        "tonalRamp": [
+          "oklch(15% 0.03 290)",
+          "oklch(25% 0.03 290)",
+          "oklch(38% 0.03 290)",
+          "oklch(50% 0.03 290)",
+          "oklch(62% 0.03 290)",
+          "oklch(74% 0.03 290)",
+          "oklch(86% 0.03 290)",
+          "oklch(95% 0.03 290)"
+        ]
+      },
+      "night-card": {
+        "role": "neutral",
+        "displayName": "Night Card",
+        "purpose": "Dark-mode twin",
+        "tonalRamp": [
+          "oklch(15% 0.03 290)",
+          "oklch(25% 0.03 290)",
+          "oklch(38% 0.03 290)",
+          "oklch(50% 0.03 290)",
+          "oklch(62% 0.03 290)",
+          "oklch(74% 0.03 290)",
+          "oklch(86% 0.03 290)",
+          "oklch(95% 0.03 290)"
+        ]
+      },
+      "night-hairline": {
+        "role": "neutral",
+        "displayName": "Night Hairline",
+        "purpose": "Dark-mode twin",
+        "tonalRamp": [
+          "oklch(15% 0.03 290)",
+          "oklch(25% 0.03 290)",
+          "oklch(38% 0.03 290)",
+          "oklch(50% 0.03 290)",
+          "oklch(62% 0.03 290)",
+          "oklch(74% 0.03 290)",
+          "oklch(86% 0.03 290)",
+          "oklch(95% 0.03 290)"
+        ]
+      },
+      "night-muted": {
+        "role": "neutral",
+        "displayName": "Night Muted",
+        "purpose": "Dark-mode twin",
+        "tonalRamp": [
+          "oklch(15% 0.03 290)",
+          "oklch(25% 0.03 290)",
+          "oklch(38% 0.03 290)",
+          "oklch(50% 0.03 290)",
+          "oklch(62% 0.03 290)",
+          "oklch(74% 0.03 290)",
+          "oklch(86% 0.03 290)",
+          "oklch(95% 0.03 290)"
+        ]
+      },
+      "night-tile": {
+        "role": "neutral",
+        "displayName": "Night Tile",
+        "purpose": "Dark-mode twin",
+        "tonalRamp": [
+          "oklch(15% 0.03 290)",
+          "oklch(25% 0.03 290)",
+          "oklch(38% 0.03 290)",
+          "oklch(50% 0.03 290)",
+          "oklch(62% 0.03 290)",
+          "oklch(74% 0.03 290)",
+          "oklch(86% 0.03 290)",
+          "oklch(95% 0.03 290)"
+        ]
+      },
+      "night-tile-fg": {
+        "role": "neutral",
+        "displayName": "Night Tile Text",
+        "purpose": "Dark-mode twin",
+        "tonalRamp": [
+          "oklch(15% 0.03 290)",
+          "oklch(25% 0.03 290)",
+          "oklch(38% 0.03 290)",
+          "oklch(50% 0.03 290)",
+          "oklch(62% 0.03 290)",
+          "oklch(74% 0.03 290)",
+          "oklch(86% 0.03 290)",
+          "oklch(95% 0.03 290)"
+        ]
+      },
+      "night-brand": {
+        "role": "primary",
+        "displayName": "Night Brand Violet",
+        "purpose": "Dark-mode twin",
+        "tonalRamp": [
+          "oklch(15% 0.14 290)",
+          "oklch(25% 0.14 290)",
+          "oklch(38% 0.14 290)",
+          "oklch(50% 0.14 290)",
+          "oklch(62% 0.14 290)",
+          "oklch(74% 0.14 290)",
+          "oklch(86% 0.14 290)",
+          "oklch(95% 0.14 290)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "One-line page title beside the count."
+      },
+      "headline": {
+        "displayName": "Wordmark",
+        "purpose": "Header brand name."
+      },
+      "title": {
+        "displayName": "Card Title",
+        "purpose": "Project names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Card descriptions, 2-line clamp."
+      },
+      "label": {
+        "displayName": "Mono Label",
+        "purpose": "Counter and footer signature."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Card addresses, search count, key cap."
+      },
+      "initials": {
+        "displayName": "Initials",
+        "purpose": "Logo-less tile letters."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "404 code."
+      }
+    },
+    "shadows": [
+      {
+        "name": "violet-lift",
+        "value": "0 10px 30px -18px color-mix(in srgb, var(--brand) 70%, transparent)",
+        "purpose": "Hovered project card."
+      },
+      {
+        "name": "halo-glow",
+        "value": "drop-shadow(0 0 24px color-mix(in srgb, var(--lavender) 55%, transparent))",
+        "purpose": "404 logo glow (filter)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "hover-quick",
+        "value": "0.15s ease",
+        "purpose": "Search border focus."
+      },
+      {
+        "name": "hover-card",
+        "value": "0.18s ease",
+        "purpose": "Card lift, border, shadow, arrow."
+      },
+      {
+        "name": "halo-drop",
+        "value": "opacity 0.2s ease, transform 0.25s ease",
+        "purpose": "Halo fades in and drops 6px onto the tile."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "fluid",
+        "value": "auto-fill grid; min column = measured text width + 150px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Project Card",
+      "kind": "card",
+      "refersTo": "project-card",
+      "description": "Whole-card link with tile, name, description and arrow; lifts and gets a halo on hover.",
+      "html": "<a class=\"ds-card\" href=\"#\"><span class=\"ds-tile-wrap\"><span class=\"ds-halo\"></span><span class=\"ds-tile\">MO</span></span><span class=\"ds-text\"><span class=\"ds-name\">MCU's Order</span><span class=\"ds-desc\">Ordre des films/séries du MCU</span><span class=\"ds-host\">mcus-order.vercel.app</span></span><svg class=\"ds-arrow\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M7 17 17 7\"/><path d=\"M8 7h9v9\"/></svg></a>",
+      "css": ".ds-card{position:relative;display:flex;align-items:flex-start;gap:16px;padding:20px;max-width:360px;background:var(--card,#fff);border:1px solid var(--border,#e0deed);border-radius:16px;color:var(--fg,#1a191f);text-decoration:none;font-family:var(--font-sans),'Bricolage Grotesque',system-ui,sans-serif;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}.ds-card:hover{transform:translateY(-2px);border-color:color-mix(in srgb,var(--lavender,#9d85e6) 60%,var(--border,#e0deed));box-shadow:0 10px 30px -18px color-mix(in srgb,var(--brand,#704ec0) 70%,transparent)}.ds-card:focus-visible{outline:2px solid var(--brand,#704ec0);outline-offset:3px}.ds-tile-wrap{position:relative;flex-shrink:0;padding-top:4px}.ds-halo{position:absolute;top:-7px;left:50%;width:32px;height:8px;border:2.5px solid var(--lavender,#9d85e6);border-radius:50%;opacity:0;transform:translate(-50%,6px);transition:opacity .2s ease,transform .25s ease}.ds-card:hover .ds-halo,.ds-card:focus-visible .ds-halo{opacity:1;transform:translate(-50%,0)}.ds-tile{width:56px;height:56px;display:flex;align-items:center;justify-content:center;border-radius:14px;background:var(--tile,#efeafc);color:var(--tile-fg,#5b3fa6);font-size:19px;font-weight:800;letter-spacing:-.02em}.ds-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px;padding-top:4px}.ds-name{padding-right:22px;font-weight:700;line-height:1.2;letter-spacing:-.015em}.ds-desc{font-size:14.5px;line-height:1.45;color:var(--muted,#6c6a78)}.ds-arrow{position:absolute;top:22px;right:18px;width:18px;height:18px;color:var(--muted,#6c6a78);transition:transform .18s ease,color .18s ease}.ds-card:hover .ds-arrow{transform:translate(2px,-2px);color:var(--brand,#704ec0)}.ds-host{padding-top:4px;font-family:var(--font-mono),'JetBrains Mono',ui-monospace,monospace;font-size:12px;letter-spacing:.01em;color:var(--muted,#6c6a78);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Header search with magnifier icon; border turns violet on focus.",
+      "html": "<label class=\"ds-search\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-3.5-3.5\"/></svg><input type=\"search\" placeholder=\"Rechercher un projet…\"><kbd class=\"ds-key\">/</kbd></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:10px;width:320px;height:46px;padding:0 16px;background:var(--field,#fff);border:1px solid var(--field-border,#94929f);border-radius:12px;color:var(--muted,#6c6a78);transition:border-color .15s ease}.ds-search:focus-within{border-color:var(--brand,#704ec0);box-shadow:0 0 0 1px var(--brand,#704ec0)}.ds-search input{flex:1;min-width:0;border:0;background:transparent;color:var(--fg,#1a191f);font:inherit;font-size:16px;font-family:var(--font-sans),'Bricolage Grotesque',system-ui,sans-serif}.ds-search input:focus{outline:none}.ds-search input::placeholder{color:var(--muted,#6c6a78)}.ds-key{display:grid;place-items:center;min-width:22px;height:22px;padding:0 6px;border:1px solid var(--border,#e0deed);border-radius:6px;background:var(--bg,#faf9fe);font-family:var(--font-mono),'JetBrains Mono',ui-monospace,monospace;font-size:12px;color:var(--muted,#6c6a78)}.ds-search:focus-within .ds-key{opacity:0}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The 404 back-home link; the only filled violet surface.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Retour à l'accueil</a>",
+      "css": ".ds-btn-primary{display:inline-block;padding:.7rem 1.3rem;border-radius:10px;background:var(--brand,#704ec0);color:var(--on-brand,#fff);text-decoration:none;font-weight:600;font-family:var(--font-sans),'Bricolage Grotesque',system-ui,sans-serif}.ds-btn-primary:hover{background:color-mix(in srgb,var(--brand,#704ec0) 85%,var(--fg,#1a191f))}.ds-btn-primary:focus-visible{outline:2px solid var(--brand,#704ec0);outline-offset:2px}"
+    },
+    {
+      "name": "Project Tile",
+      "kind": "custom",
+      "refersTo": "project-tile",
+      "description": "56px initials tile, the fallback when a project has no logo.",
+      "html": "<span class=\"ds-tile-solo\">ES</span>",
+      "css": ".ds-tile-solo{width:56px;height:56px;display:inline-flex;align-items:center;justify-content:center;border-radius:14px;background:var(--tile,#efeafc);color:var(--tile-fg,#5b3fa6);font-size:19px;font-weight:800;letter-spacing:-.02em;font-family:var(--font-sans),'Bricolage Grotesque',system-ui,sans-serif}"
+    },
+    {
+      "name": "Hero Headline",
+      "kind": "custom",
+      "refersTo": "display",
+      "description": "One compact title line with one violet phrase, mono count on the right.",
+      "html": "<div class=\"ds-hero\"><h1>Mes projets perso, hébergés <span>quelque part</span>.</h1><p class=\"ds-count\">9 projets en ligne</p></div>",
+      "css": ".ds-hero{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:6px 24px;font-family:var(--font-sans),'Bricolage Grotesque',system-ui,sans-serif;color:var(--fg,#1a191f)}.ds-hero h1{margin:0;font-size:32px;line-height:1.1;font-weight:800;letter-spacing:-.03em}.ds-hero h1 span{color:var(--brand,#704ec0)}.ds-count{margin:0;font-family:var(--font-mono),'JetBrains Mono',ui-monospace,monospace;font-size:13px;letter-spacing:.02em;color:var(--muted,#6c6a78)}"
+    },
+    {
+      "name": "Empty State",
+      "kind": "custom",
+      "description": "Dashed placeholder when search finds nothing.",
+      "html": "<div class=\"ds-empty\"><strong>Rien par ici.</strong><span>Aucun projet ne correspond à « xyz ».</span><button class=\"ds-clear\" type=\"button\">Effacer la recherche</button></div>",
+      "css": ".ds-empty{display:flex;flex-direction:column;align-items:center;gap:8px;padding:56px 24px;border:1.5px dashed var(--border,#e0deed);border-radius:16px;text-align:center;color:var(--muted,#6c6a78);font-family:var(--font-sans),'Bricolage Grotesque',system-ui,sans-serif}.ds-empty strong{font-size:22px;color:var(--fg,#1a191f)}.ds-clear{margin-top:12px;min-height:44px;padding:0 18px;border:1px solid var(--field-border,#94929f);border-radius:10px;background:var(--card,#fff);color:var(--fg,#1a191f);font:inherit;font-size:15px;font-weight:600;cursor:pointer;transition:border-color .15s ease,color .15s ease}.ds-clear:hover{border-color:var(--brand,#704ec0);color:var(--brand,#704ec0)}.ds-clear:focus-visible{outline:2px solid var(--brand,#704ec0);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "L'Ange Paresseux",
+    "overview": "**Creative North Star: \"L'Ange Paresseux\"**\n\nThe system grows out of the logo: a smiling stick figure lounging on a giant hand-drawn \"V\", wearing a lavender halo and sash. Everything else is ink on pale lilac paper, and the lavender halo is the one bit of magic. The page should feel like that character: relaxed, a little cheeky, and quick to help without trying hard.\n\nThe list is the hero. A single compact line of heavy grotesque sets the tone (with the project count beside it), then a grid of soft cards that are all the same width; on desktop every project fits in the first screen. Interaction is gentle and playful: cards lift two pixels, the arrow nudges toward the corner, and a small halo floats down onto the project tile. Light and dark modes follow the OS and are equal citizens, never a toggle.\n\nThe confirmed anti-references are corporate/SaaS polish (gradients everywhere, marketing slogans) and competing accent colours. Violet/lavender is the only hue in the main site.",
+    "keyCharacteristics": [
+      "Ink-on-lilac neutrals with a single violet accent family.",
+      "Bricolage Grotesque at heavy weights for voice, JetBrains Mono for small machine-ish labels.",
+      "Soft, generously rounded cards with hairline borders; flat at rest.",
+      "Playful micro-motion on hover (lift, arrow nudge, halo drop), always disabled under reduced motion.",
+      "The halo motif from the logo is the signature ornament."
+    ],
+    "rules": [
+      {
+        "name": "The One Halo Rule",
+        "body": "Violet/lavender is the only hue in the main site. Adding a second accent (green \"live\" badges, coloured categories…) breaks the system.",
+        "section": "colors"
+      },
+      {
+        "name": "The Light, Not Paint Rule",
+        "body": "Lavender shows up as rings, glows and tints, never as a big flat fill. Large violet fills are reserved for the single primary button.",
+        "section": "colors"
+      },
+      {
+        "name": "The Heavy Voice Rule",
+        "body": "Personality comes from weight (700–800) and tight tracking on Bricolage, not from extra fonts or colour. Never add a third family on the main site.",
+        "section": "typography"
+      },
+      {
+        "name": "The Shared Width Rule",
+        "body": "Cards never size to their own content. The measured text width is capped at 320px so one very long name or description cannot force every card wide (it ellipsizes or clamps instead).",
+        "section": "layout"
+      },
+      {
+        "name": "The Synced Measure Rule",
+        "body": "Any change to card text styles or chrome must keep the hidden measuring element, `--card-chrome` and the server estimate in sync, or the grid reflows on load.",
+        "section": "layout"
+      },
+      {
+        "name": "The Flat-At-Rest Rule",
+        "body": "Nothing casts a shadow until the visitor points at it.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep Brand Violet to small accents: one hero word, focus states, the hovered arrow, the primary button.",
+      "**Do** define every new colour as a `:root` token with a dark-mode twin under `prefers-color-scheme: dark`.",
+      "**Do** use the halo (the 32×8px lavender ellipse) as the playful signature for hover or \"selected\" moments.",
+      "**Do** pair every hover motion with a `prefers-reduced-motion: reduce` override, gate hover-only effects behind `@media (hover: hover)`, and give touch an `:active` equivalent.",
+      "**Do** keep text inputs at 16px or larger.",
+      "**Do** theme the browser surfaces: text selection is Halo Lavender at 35%, caret and native accents are Brand Violet.",
+      "**Do** keep the first project card above the fold on every viewport; nothing above the list grows taller than one title line plus the header.",
+      "**Do** keep corners in the 10–16px family, scaled to element size."
+    ],
+    "donts": [
+      "**Don't** add a second accent hue or per-project colours on the main site (The One Halo Rule).",
+      "**Don't** go corporate/SaaS: no gradient backgrounds, gradient buttons, or marketing-style hero slogans on the directory.",
+      "**Don't** add resting shadows to cards or fields (The Flat-At-Rest Rule).",
+      "**Don't** let cards size to their own content; respect the shared measured width.",
+      "**Don't** leak Kitagawa styles outside `.theme-kitagawa`."
+    ]
+  }
+}
