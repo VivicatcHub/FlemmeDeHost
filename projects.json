@@ -35,5 +35,10 @@
     "name": "To Do Charts",
     "url": "https://to-do-charts.vercel.app/",
     "desc": "Gardez un œil sur vos tâches quotidiennes"
+  },
+  {
+    "name": "HOD Ads",
+    "url": "https://hod-ads.vercel.app/",
+    "desc": "Créons des affiches pour Heaven of Dice"
   }
 ]
