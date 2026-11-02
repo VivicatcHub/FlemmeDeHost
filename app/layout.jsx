@@ -7,7 +7,6 @@ const sans = Bricolage_Grotesque({
 });
 const mono = JetBrains_Mono({
   subsets: ["latin"],
-  weight: ["400", "500"],
   variable: "--font-mono",
 });
 
